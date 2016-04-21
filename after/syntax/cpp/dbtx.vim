@@ -17,16 +17,17 @@ syn match dbtx_op display '[*&]'
 
 syn keyword dbtx_class bopo  balgo btest barch bfs
 syn keyword dbtx_class ifstream ios files std soci string cout endl cerr exception
+syn keyword dbtx_class Database Connexion_Detail
 
 syn keyword dbtx_type String Buffer StringStream 
-syn keyword dbtx_type xml_tree 
+syn keyword dbtx_type xml_tree state 
 syn keyword dbtx_type second_t Error 
 syn keyword dbtx_type PGconn text_oarchive 
 syn keyword dbtx_type Vector Shared Weak Unique Map Array Exception
 syn keyword dbtx_type field_t Field table_t Table
 
 syn keyword dbtx_macro nullptr emit START STOP STATUS RESTART
-syn keyword dbtx_macro INTEGER BOOL STRING KEY DATE TIME REF SERIAL
+syn keyword dbtx_macro DINTEGER DBOOL DSTRING DKEY DDATE DTIME DREF DSERIAL
 
 highlight link dbtx_namespace Function
 "highlight link dbtx_braces Type
