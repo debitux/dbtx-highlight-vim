@@ -43,7 +43,8 @@ syn keyword dbtx_enum_data DBTX_TIME DBTX_REF DBTX_SERIAL
 syn keyword dbtx_enum_data SUCCESS SERVEUR_FAIL CONNECTION_FAIL BDD_FAIL
 syn keyword dbtx_enum_data BDD_EXIST TABLE_EXIST
 
-highlight link dbtx_namespace Folded
+
+highlight link dbtx_namespace StorageClass
 
 highlight link dbtx_macro Constant
 
