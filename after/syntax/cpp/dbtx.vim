@@ -31,9 +31,9 @@ syn keyword dbtx_structure Database Connexion_Detail Core
 
 syn keyword dbtx_type string vector Buffer StringStream
 syn keyword dbtx_type second_t Error
-syn keyword dbtx_type PGconn text_oarchive
+syn keyword dbtx_type PGconn itext otext obinary ibinary
 syn keyword dbtx_type field_t Field table_t Table
-syn keyword dbtx_type shared_ptr unique_ptr weak_ptr 
+syn keyword dbtx_type shared_ptr unique_ptr weak_ptr  Shared Unique Weak
 
 syn keyword dbtx_macro nullptr emit
 
